@@ -55,11 +55,11 @@ export default function Projects() {
 
             <div className="flex items-center gap-3 mt-auto pt-2">
               {p.live && (
-                <a href={p.live} target="_blank" className="text-xs text-white font-medium hover:text-white/70 transition-colors">
+                <a href={p.live} target="_blank" rel="noopener noreferrer" className="text-xs text-white font-medium hover:text-white/70 transition-colors">
                   Live →
                 </a>
               )}
-              <a href={p.github} target="_blank" className="text-xs text-white/40 hover:text-white/70 transition-colors">
+              <a href={p.github} target="_blank" rel="noopener noreferrer" className="text-xs text-white/40 hover:text-white/70 transition-colors">
                 GitHub
               </a>
             </div>

@@ -12,7 +12,7 @@ export default function Contact() {
           <a href="mailto:steinstrasser@gmail.com" className="w-full sm:w-auto bg-gradient-to-r from-purple-500 to-blue-500 text-white px-8 py-4 rounded-full font-medium hover:opacity-90 transition-opacity">
             steinstrasser@gmail.com
           </a>
-          <a href="https://linkedin.com/in/theosteinstrasser" target="_blank" className="w-full sm:w-auto border border-white/10 text-white/70 px-8 py-4 rounded-full font-medium hover:border-white/30 hover:text-white transition-all">
+          <a href="https://linkedin.com/in/theosteinstrasser" target="_blank" rel="noopener noreferrer" className="w-full sm:w-auto border border-white/10 text-white/70 px-8 py-4 rounded-full font-medium hover:border-white/30 hover:text-white transition-all">
             LinkedIn
           </a>
         </div>

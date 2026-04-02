@@ -21,11 +21,14 @@ export default function Hero() {
           4th year CS student at Wilfrid Laurier. Building full-stack apps with Next.js, Supabase, and AI.
         </p>
 
-        <div className="flex items-center gap-3 mt-2">
+        <div className="flex flex-wrap justify-center items-center gap-3 mt-2">
           <a href="#projects" className="bg-gradient-to-r from-purple-500 to-blue-500 text-white px-6 py-3 rounded-full font-medium hover:opacity-90 transition-opacity">
             See my work
           </a>
-          <a href="https://linkedin.com/in/theosteinstrasser" target="_blank" className="border border-white/10 text-white/70 px-6 py-3 rounded-full font-medium hover:border-white/30 hover:text-white transition-all">
+          <a href="/resume.pdf" target="_blank" rel="noopener noreferrer" className="border border-white/10 text-white/70 px-6 py-3 rounded-full font-medium hover:border-white/30 hover:text-white transition-all">
+            Resume
+          </a>
+          <a href="https://linkedin.com/in/theosteinstrasser" target="_blank" rel="noopener noreferrer" className="border border-white/10 text-white/70 px-6 py-3 rounded-full font-medium hover:border-white/30 hover:text-white transition-all">
             LinkedIn
           </a>
         </div>
