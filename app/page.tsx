@@ -415,7 +415,7 @@ function StackExplorer() {
           <button
             key={t.cat}
             onClick={() => setActive(i)}
-            className="relative inline-flex items-center px-4 py-[7px] rounded-lg text-[12px] font-medium transition-colors duration-150 cursor-pointer"
+            className="relative inline-flex items-center px-3 py-[5px] rounded-lg text-[11px] font-medium transition-colors duration-150 cursor-pointer"
             style={{ color: i === active ? "#ffffff" : "#3a5570" }}
           >
             {i === active && (
@@ -445,7 +445,7 @@ function StackExplorer() {
             initial={{ opacity: 0, scale: 0.88, y: 6 }}
             animate={{ opacity: 1, scale: 1, y: 0 }}
             transition={{ duration: 0.2, delay: i * 0.045, ease: curve }}
-            className="text-[13px] text-[#6a8090] bg-[#0d1520] border border-[#1a2535] rounded-lg px-3 py-1.5 cursor-default"
+            className="text-[12px] text-[#6a8090] bg-[#0d1520] border border-[#1a2535] rounded-lg px-2.5 py-1 cursor-default"
             whileHover={{ borderColor: "#2a4a70", color: "#c0d8f0", scale: 1.04 }}
           >
             {item}
